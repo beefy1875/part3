@@ -9,6 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rm -rf build && cd ../Studs/p2/phonebook/ && npm run build && cp -r build ../../../part3"
   },
+  "engines": {
+    "node": ">=14.20.1"
+  },  
   "author": "",
   "license": "ISC",
   "dependencies": {
